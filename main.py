@@ -20,4 +20,4 @@ for i in range(20):
 
     ppl_list=np.array(new_ppl_list)
 
-    print("\n\nMost fit Neural Network : ",ppl.best_param,"\tBest Fitness Score : ",ppl.best_score,"\n\n")
+    print("\n\nMost appropriate parameters : ",ppl.best_param,"\tBest Fitness Score : ",ppl.best_score,"\n\n")
